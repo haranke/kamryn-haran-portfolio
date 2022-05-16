@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kid's Socks</title>
+    <style>
+            .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            max-width:1200px;
+            margin:0 auto;
+            grid-template-areas:
+            "header"
+            "nav"
+            "icons"
+            "title"
+            "ksocks1"
+            "ksocks2"
+            "ksocks3"
+            "ksocks4"
+            "ksocks5"
+            "ksocks6"
+            "ksocks7"
+            "ksocks8"
+            "ksocks9"
+            "footer"
+            ;
+        }
+        .header {
+            grid-area:header;
+        }
+        nav {
+            grid-area:nav;
+        }
+        .icons {
+            grid-area:icons;
+        }
+        .title {
+            grid-area:title;
+            padding-left: 20px;
+        }
+        .ksocks1 {
+            grid-area:ksocks1;
+        }
+        .ksocks2 {
+            grid-area:ksocks2;
+        }
+        .ksocks3 {
+            grid-area:ksocks3;
+        }
+        .ksocks4 {
+            grid-area:ksocks4;
+            padding-top: 20px;
+        }
+        .ksocks5 {
+            grid-area:ksocks5;
+            padding-top: 20px;
+        }
+        .ksocks6 {
+            grid-area:ksocks6;
+            padding-top: 20px;
+        }
+        .ksocks7 {
+            grid-area:ksocks7;
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+        .ksocks8 {
+            grid-area:ksocks8;
+            padding-top: 20px;
+        }
+        .ksocks9 {
+            grid-area:ksocks9;
+            padding-top: 20px;
+        }
+        footer {
+            grid-area:footer;
+        }
+        h3 {
+            font-weight:200;
+            text-transform:uppercase;
+            padding-left: 20px;
+        }
+        h4 {
+            padding-left: 250px;
+        }
+        p {
+            padding-left: 250px;
+        }
+        h5 {
+            text-align: center;
+            padding-top: 20px;
+        }
+        .button {
+        width: 100px;
+        height: 50px;
+        border: none;
+        color:white;
+        background:black;
+        }
+
+        @media only screen and (min-width:620px) {
+        .container {
+            display: grid;
+            grid-template-columns:repeat(6, 1fr);
+            grid-template-areas:
+            "header header nav nav icons icons"
+            "header header nav nav icons icons"
+            "title title title title title title"
+            "ksocks1 ksocks1 ksocks2 ksocks2 ksocks3 ksocks3"
+            "ksocks4 ksocks4 ksocks5 ksocks5 ksocks6 ksocks6"
+            "ksocks7 ksocks7 ksocks8 ksocks8 ksocks9 ksocks9"
+            "footer footer footer footer footer footer"
+            ;
+        }
+    }
+
+    @media only screen and (min-width:900px) {
+        .container {
+            display: grid;
+            grid-template-columns:repeat(12, 1fr);
+            grid-template-areas:
+            "header header header header nav nav nav nav icons icons icons icons"
+            "header header header header nav nav nav nav icons icons icons icons"
+            "title title title title title title title title title title title title"
+            "ksocks1 ksocks1 ksocks1 ksocks1 ksocks2 ksocks2 ksocks2 ksocks2  ksocks3 ksocks3 ksocks3 ksocks3"
+            "ksocks4 ksocks4 ksocks4 ksocks4 ksocks5 ksocks5 ksocks5 ksocks5 ksocks6 ksocks6 ksocks6 ksocks6"
+            "ksocks7 ksocks7 ksocks7 ksocks7 ksocks8 ksocks8 ksocks8 ksocks8 ksocks9 ksocks9 ksocks9 ksocks9"
+            "footer footer footer footer footer footer footer footer footer footer footer footer"
+            ;
+        }
+}
+    </style>
+
+
+<link rel="stylesheet" href="stylesheet.css"> 
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html">
+            <img src="images/sock-brand.png" alt="image of ComfyToes logo">
+        </a>
+        </div>
+        <nav>
+            <span><a href="index.html" style="text-decoration:none">Home | </a></span> 
+            <span><a href="product1.html" style="text-decoration:none">Women |</a></span>
+            <span><a href="product2.html" style="text-decoration:none">Men |</a></span> 
+            <span><a href="kids.html" style="text-decoration:none">Kids |</a></span> 
+            <span><a href="sale.html" style="text-decoration:none">Sale</a></span>
+        </nav>
+        <div class="icons">
+            <img src="images/search.svg" alt="search icon"
+            width="30"> 
+            &nbsp; 
+            <img src="images/cart.svg" alt="cart icon"
+            width="30">
+            
+        </div>
+
+        <div class="title">
+            <h1>Kid's Socks</h1>
+        </div>
+        <div class="ksocks1">
+            <img src="images/ksocks1.png" alt="image of kid's socks with taco pattern design">
+            <h3>
+                Kid's Tacos Crew Socks
+            </h3>
+            <h3>
+                $6.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="ksocks2">
+            <img src="images/ksocks2.png" alt="image of kid's socks with basketball pattern design">
+            <h3>
+                Kid's Basketball Crew Socks
+            </h3>
+            <h3>
+                $6.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="ksocks3">
+            <img src="images/ksocks3.png" alt="image of kid's socks with dinosaur pattern design">
+            <h3>
+                Kid's Dinosaur Crew Socks
+            </h3>
+            <h3>
+                $6.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="ksocks4">
+            <img src="images/ksocks4.png" alt="image of kid's socks with eggs and bacon pattern design">
+            <h3>
+                Kid's Eggs & Bacon Crew Socks
+            </h3>
+            <h3>
+                $6.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="ksocks5">
+            <img src="images/ksocks5.png" alt="image of kid's socks with space pattern design">
+            <h3>
+                Kid's Space Crew Socks
+            </h3>
+            <h3>
+                $6.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="ksocks6">
+            <img src="images/ksocks6.png" alt="image of kid's socks with duck pattern design">
+            <h3>
+                Kid's Duck Crew Socks
+            </h3>
+            <h3>
+                $6.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="ksocks7">
+            <img src="images/ksocks7.png" alt="image of kid's socks with ice cream pattern design">
+            <h3>
+                Kid's Ice Cream Crew Socks
+            </h3>
+            <h3>
+                $6.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="ksocks8">
+            <img src="images/ksocks8.png" alt="image of kid's socks with shark pattern design">
+            <h3>
+                Kid's Shark Crew Socks
+            </h3>
+            <h3>
+                $6.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="ksocks9">
+            <img src="images/ksocks9.png" alt="image of kid's socks with dog pattern design">
+            <h3>
+                Kid's Dog Crew Socks
+            </h3>
+            <h3>
+                $6.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <footer>
+            <hr style="width: 100%">
+            <img src="images/sock-brand.png " alt="image of ComfyToes logo"
+            width="250">
+            <h4>
+                Customer Care &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Our Company
+            </h4>
+            <p>
+                My Account &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;About ComfyToes
+            </p>
+            <p>
+                FAQs &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Affiliates
+            </p>
+            <p>
+                Returns &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="policy.html">Privacy Policy</a>
+            </p>
+            <p>
+                Shipping + Delivery
+            </p>
+            <p>
+                Contact
+            </p>
+            <h5>&copy; Kamryn Haran | haranke@dukes.jmu.edu</h5>
+        </footer>
+    </div>
+</body>
+
+</html>

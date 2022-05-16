@@ -1,0 +1,51 @@
+nav {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:flex-end;
+    text-transform:uppercase;
+    font-weight: bold;
+    list-style-type: none;
+    display: block;
+    padding-top: 90px;
+    padding-left: 60px;
+}
+nav a {
+    color:black;
+}
+nav a:hover {
+    color: #686c73;
+}
+
+.icons {
+    padding-left: 150px;
+    padding-top: 75px;
+}
+
+.header {
+    padding-top:40px;
+}
+
+.promo {
+    padding-top: 40px;
+    padding-left: 160px;
+}
+
+.womens a {
+    color:black;
+}
+
+.mens a {
+    color:black;
+}
+
+.kids a {
+    color:black;
+}
+
+.sale a {
+    color:black;
+}
+
+a {
+    color:#000000;
+}

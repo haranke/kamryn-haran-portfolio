@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Socks</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            max-width:1200px;
+            margin:0 auto;
+            grid-template-areas:
+            "header"
+            "nav"
+            "icons"
+            "title"
+            "sock1"
+            "sock2"
+            "sock3"
+            "sock4"
+            "sock5"
+            "sock6"
+            "sock7"
+            "sock8"
+            "sock9"
+            "footer"
+            ;
+        }
+        .header {
+            grid-area:header;
+        }
+        nav {
+            grid-area:nav;
+        }
+        .icons {
+            grid-area:icons;
+        }
+        .title {
+            grid-area:title;
+            padding-left: 20px;
+        }
+        .sock1 {
+            grid-area:sock1;
+        }
+        .sock2 {
+            grid-area:sock2;
+        }
+        .sock3 {
+            grid-area:sock3;
+        }
+        .sock4 {
+            grid-area:sock4;
+            padding-top: 20px;
+        }
+        .sock5 {
+            grid-area:sock5;
+            padding-top: 20px;
+        }
+        .sock6 {
+            grid-area:sock6;
+            padding-top: 20px;
+        }
+        .sock7 {
+            grid-area:sock7;
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+        .sock8 {
+            grid-area:sock8;
+            padding-top: 20px;
+        }
+        .sock9 {
+            grid-area:sock9;
+            padding-top: 20px;
+        }
+        footer {
+            grid-area:footer;
+        }
+        h3 {
+            font-weight:200;
+            text-transform:uppercase;
+            padding-left: 20px;
+        }
+        h4 {
+            padding-left: 250px;
+        }
+        p {
+            padding-left: 250px;
+        }
+        h5 {
+            text-align: center;
+            padding-top: 20px;
+        }
+        .button {
+        width: 100px;
+        height: 50px;
+        border: none;
+        color:white;
+        background:black;
+        }
+
+        @media only screen and (min-width:620px) {
+        .container {
+            display: grid;
+            grid-template-columns:repeat(6, 1fr);
+            grid-template-areas:
+            "header header nav nav icons icons"
+            "header header nav nav icons icons"
+            "title title title title title title"
+            "sock1 sock1 sock2 sock2 sock3 sock3"
+            "sock4 sock4 sock5 sock5 sock6 sock6"
+            "sock7 sock7 sock8 sock8 sock9 sock9"
+            "footer footer footer footer footer footer"
+            ;
+        }
+    }
+
+    @media only screen and (min-width:900px) {
+        .container {
+            display: grid;
+            grid-template-columns:repeat(12, 1fr);
+            grid-template-areas:
+            "header header header header nav nav nav nav icons icons icons icons"
+            "header header header header nav nav nav nav icons icons icons icons"
+            "title title title title title title title title title title title title"
+            "sock1 sock1 sock1 sock1 sock2 sock2 sock2 sock2 sock3 sock3 sock3 sock3"
+            "sock4 sock4 sock4 sock4 sock5 sock5 sock5 sock5 sock6 sock6 sock6 sock6"
+            "sock7 sock7 sock7 sock7 sock8 sock8 sock8 sock8 sock9 sock9 sock9 sock9"
+            "footer footer footer footer footer footer footer footer footer footer footer footer"
+            ;
+        }
+}
+    </style>
+
+<link rel="stylesheet" href="stylesheet.css"> 
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html">
+            <img src="images/sock-brand.png" alt="image of ComfyToes logo">
+        </a>
+        </div>
+        <nav>
+            <span><a href="index.html" style="text-decoration:none">Home | </a></span> 
+            <span><a href="product1.html" style="text-decoration:none">Women |</a></span>
+            <span><a href="product2.html" style="text-decoration:none">Men |</a></span> 
+            <span><a href="kids.html" style="text-decoration:none">Kids |</a></span> 
+            <span><a href="sale.html" style="text-decoration:none">Sale</a></span>
+        </nav>
+        <div class="icons">
+            <img src="images/search.svg" alt="search icon"
+            width="30"> 
+            &nbsp; 
+            <img src="images/cart.svg" alt="cart icon"
+            width="30">
+        </div>
+        <div class="title">
+            <h1>Women's Socks</h1>
+        </div>
+        <div class="sock1">
+            <img src="images/sock1.png" alt="women's socks with cat pattern design">
+            <h3>
+                Women's Cats Crew Socks
+            </h3>
+            <h3>
+                $8.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sock2">
+            <img src="images/sock2.png" alt="women's socks with catus pattern design">
+            <h3>
+                Women's Catus Crew Socks
+            </h3>
+            <h3>
+                $8.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sock3">
+            <img src="images/sock3.png" alt="women's socks with daisy pattern design">
+            <h3>
+                Women's Daisy Crew Socks
+            </h3>
+            <h3>
+                $8.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sock4">
+            <img src="images/sock4.png" alt="women's socks with ice cream pattern design">
+            <h3>
+                Women's Ice Cream Crew Socks
+            </h3>
+            <h3>
+                $8.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sock5">
+            <img src="images/sock5.png" alt="women's socks with space pattern design">
+            <h3>
+                Women's Space Crew Socks
+            </h3>
+            <h3>
+                $8.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sock6">
+            <img src="images/sock6.png" alt="women's socks with coffee pattern design">
+            <h3>
+                Women's Coffe Crew Socks
+            </h3>
+            <h3>
+                $8.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sock7">
+            <img src="images/sock7.png" alt="women's socks with banana patern design">
+            <h3>
+                Women's Banana Crew Socks
+            </h3>
+            <h3>
+                $8.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sock8">
+            <img src="images/sock8.png" alt="women's socks with noodles pattern design">
+            <h3>
+                Women's Noodles Crew Socks
+            </h3>
+            <h3>
+                $8.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sock9">
+            <img src="images/sock9.png" alt="women's socks with whale pattern design">
+            <h3>
+                Women's Whales Crew Socks
+            </h3>
+            <h3>
+                $8.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+            
+        <footer>
+            <hr style="width: 100%">
+            <img src="images/sock-brand.png" alt="image of ComfyToes logo"
+            width="250">
+            <h4>
+                Customer Care &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Our Company
+            </h4>
+            <p>
+                My Account &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;About ComfyToes
+            </p>
+            <p>
+                FAQs &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Affiliates
+            </p>
+            <p>
+                Returns &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="policy.html">Privacy Policy</a>
+            </p>
+            <p>
+                Shipping + Delivery
+            </p>
+            <p>
+                Contact
+            </p>
+            <h5>&copy; Kamryn Haran | haranke@dukes.jmu.edu</h5>
+        </footer>
+    </div>
+</body>
+</html>

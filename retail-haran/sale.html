@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sale</title>
+<style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            max-width:1200px;
+            margin:0 auto;
+            grid-template-areas:
+            "header"
+            "nav"
+            "icons"
+            "title"
+            "sale1"
+            "sale2"
+            "sale3"
+            "sale4"
+            "sale5"
+            "sale6"
+            "sale7"
+            "sale8"
+            "sale9"
+            "footer"
+            ;
+        }
+        .header {
+            grid-area:header;
+        }
+        nav {
+            grid-area:nav;
+        }
+        .icons {
+            grid-area:icons;
+        }
+        .title {
+            grid-area:title;
+            padding-left: 20px;
+        }
+        .sale1 {
+            grid-area:sale1;
+        }
+        .sale2 {
+            grid-area:sale2;
+        }
+        .sale3 {
+            grid-area:sale3;
+        }
+        .sale4 {
+            grid-area:sale4;
+            padding-top: 20px;
+        }
+        .sale5 {
+            grid-area:sale5;
+            padding-top: 20px;
+        }
+        .sale6 {
+            grid-area:sale6;
+            padding-top: 20px;
+        }
+        .sale7 {
+            grid-area:sale7;
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+        .sale8 {
+            grid-area:sale8;
+            padding-top: 20px;
+        }
+        .sale9 {
+            grid-area:sale9;
+            padding-top: 20px;
+        }
+        footer {
+            grid-area:footer;
+        }
+        h3 {
+            font-weight:200;
+            text-transform:uppercase;
+            padding-left: 20px;
+        }
+        h4 {
+            padding-left: 250px;
+        }
+        p {
+            padding-left: 250px;
+        }
+        h5 {
+            text-align: center;
+            padding-top: 20px;
+        }
+        .button {
+        width: 100px;
+        height: 50px;
+        border: none;
+        color:white;
+        background:black;
+        }
+
+        @media only screen and (min-width:620px) {
+        .container {
+            display: grid;
+            grid-template-columns:repeat(6, 1fr);
+            grid-template-areas:
+            "header header nav nav icons icons"
+            "header header nav nav icons icons"
+            "title title title title title title"
+            "sale1 sale1 sale2 sale2 sale3 sale3"
+            "sale4 sale4 sale5 sale5 sale6 sale6"
+            "sale7 sale7 sale8 sale8 sale9 sale9"
+            "footer footer footer footer footer footer"
+            ;
+        }
+    }
+
+    @media only screen and (min-width:900px) {
+        .container {
+            display: grid;
+            grid-template-columns:repeat(12, 1fr);
+            grid-template-areas:
+            "header header header header nav nav nav nav icons icons icons icons"
+            "header header header header nav nav nav nav icons icons icons icons"
+            "title title title title title title title title title title title title"
+            "sale1 sale1 sale1 sale1 sale2 sale2 sale2 sale2 sale3 sale3 sale3 sale3"
+            "sale4 sale4 sale4 sale4 sale5 sale5 sale5 sale5 sale6 sale6 sale6 sale6"
+            "sale7 sale7 sale7 sale7 sale8 sale8 sale8 sale8 sale9 sale9 sale9 sale9"
+            "footer footer footer footer footer footer footer footer footer footer footer footer"
+            ;
+        }
+}
+    </style>
+
+
+<link rel="stylesheet" href="stylesheet.css"> 
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html">
+            <img src="images/sock-brand.png" alt="image of ComfyToes logo">
+        </a>
+        </div>
+        <nav>
+            <span><a href="index.html" style="text-decoration:none">Home | </a></span> 
+            <span><a href="product1.html" style="text-decoration:none">Women |</a></span>
+            <span><a href="product2.html" style="text-decoration:none">Men |</a></span> 
+            <span><a href="kids.html" style="text-decoration:none">Kids |</a></span> 
+            <span><a href="sale.html" style="text-decoration:none">Sale</a></span>
+        </nav>
+        <div class="icons">
+            <img src="images/search.svg" alt="search icon"
+            width="30"> 
+            &nbsp; 
+            <img src="images/cart.svg" alt="cart icon"
+            width="30">
+            
+        </div>
+
+        <div class="title">
+            <h1>Socks 50% off!</h1>
+        </div>
+        <div class="sale1">
+            <img src="images/sale1.png" alt="women's socks with cherry pattern design">
+            <h3>
+                Women's Cherry Crew Socks
+            </h3>
+            <h3>
+                <s>$8.00 </s> &nbsp; <b>$4.00</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sale2">
+            <img src="images/sale2.png" alt="women's socks with hedgehog pattern design">
+            <h3>
+                Women's Hedgehog Crew Socks
+            </h3>
+            <h3>
+                <s>$8.00 </s> &nbsp; <b>$4.00</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sale3">
+            <img src="images/sale3.png" alt="women's socks with cat and plants pattern design">
+            <h3>
+                Women's Cat & Plants Crew Socks
+            </h3>
+            <h3>
+                <s>$8.00 </s> &nbsp; <b>$4.00</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sale4">
+            <img src="images/sale4.png" alt="men's socks with dinosaur pattern design">
+            <h3>
+                Men's Dinosaur Crew Socks
+            </h3>
+            <h3>
+                <s>$12.00 </s> &nbsp; <b>$6.00</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sale5">
+            <img src="images/sale5.png" alt="men's socks with jellyfish pattern design">
+            <h3>
+                Men's Jellyfish Crew Socks
+            </h3>
+            <h3>
+                <s>$12.00 </s> &nbsp; <b>$6.00</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sale6">
+            <img src="images/sale6.png" alt="men's socks with basketball pattern design">
+            <h3>
+                Men's Basketball Crew Socks
+            </h3>
+            <h3>
+                <s>$12.00 </s> &nbsp; <b>$6.00</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sale7">
+            <img src="images/sale7.png" alt="kid's socks with unicorn pattern design">
+            <h3>
+                Kid's Unicorn Crew Socks
+            </h3>
+            <h3>
+                <s>$6.00 </s> &nbsp; <b>$3.00</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sale8">
+            <img src="images/sale8.png" alt="kid's socks with cookie pattern design">
+            <h3>
+                Kid's Cookie Crew Socks
+            </h3>
+            <h3>
+                <s>$6.00 </s> &nbsp; <b>$3.00</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="sale9">
+            <img src="images/sale9.png" alt="kid's socks with giraffe pattern design">
+            <h3>
+                Kid's Giraffe Crew Socks
+            </h3>
+            <h3>
+                <s>$6.00</s> &nbsp; <b>$3.00</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <footer>
+            <hr style="width: 100%">
+            <img src="images/sock-brand.png" alt="image of ComfyToes logo"
+            width="250">
+            <h4>
+                Customer Care &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Our Company
+            </h4>
+            <p>
+                My Account &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;About ComfyToes
+            </p>
+            <p>
+                FAQs &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Affiliates
+            </p>
+            <p>
+                Returns &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="policy.html">Privacy Policy</a>
+            </p>
+            <p>
+                Shipping + Delivery
+            </p>
+            <p>
+                Contact
+            </p>
+            <h5>&copy; Kamryn Haran | haranke@dukes.jmu.edu</h5>
+        </footer>
+    </div> 
+</body>
+
+</html>

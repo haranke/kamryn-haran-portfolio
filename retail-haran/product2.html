@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Socks</title>
+    <style>
+    
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            max-width:1200px;
+            margin:0 auto;
+            grid-template-areas:
+            "header"
+            "nav"
+            "icons"
+            "title"
+            "msocks1"
+            "msocks2"
+            "msocks3"
+            "msocks4"
+            "msocks5"
+            "msocks6"
+            "msocks7"
+            "msocks8"
+            "msocks9"
+            "footer"
+            ;
+        }
+        .header {
+            grid-area:header;
+        }
+        nav {
+            grid-area:nav;
+        }
+        .icons {
+            grid-area:icons;
+        }
+        .title {
+            grid-area:title;
+            padding-left: 20px;
+        }
+        .msocks1 {
+            grid-area:msocks1;
+        }
+        .msocks2 {
+            grid-area:msocks2;
+        }
+        .msocks3 {
+            grid-area:msocks3;
+        }
+        .msocks4 {
+            grid-area:msocks4;
+            padding-top: 20px;
+        }
+        .msocks5 {
+            grid-area:msocks5;
+            padding-top: 20px;
+        }
+        .msocks6 {
+            grid-area:msocks6;
+            padding-top: 20px;
+        }
+        .msocks7 {
+            grid-area:msocks7;
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+        .msocks8 {
+            grid-area:msocks8;
+            padding-top: 20px;
+        }
+        .msocks9 {
+            grid-area:msocks9;
+            padding-top: 20px;
+        }
+        footer {
+            grid-area:footer;
+        }
+        h3 {
+            font-weight:200;
+            text-transform:uppercase;
+            padding-left: 20px;
+        }
+        h4 {
+            padding-left: 250px;
+        }
+        p {
+            padding-left: 250px;
+        }
+        h5 {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .button {
+        width: 100px;
+        height: 50px;
+        border: none;
+        color:white;
+        background:black;
+        }
+        @media only screen and (min-width:620px) {
+        .container {
+            display: grid;
+            grid-template-columns:repeat(6, 1fr);
+            grid-template-areas:
+            "header header nav nav icons icons"
+            "header header nav nav icons icons"
+            "title title title title title title"
+            "msocks1 msocks1 msocks2 msocks2 msocks3 msocks3"
+            "msocks4 msocks4 msocks5 msocks5 msocks6 msocks6"
+            "msocks7 msocks7 msocks8 msocks8 msocks9 msocks9"
+            "footer footer footer footer footer footer"
+            ;
+        }
+    }
+
+    @media only screen and (min-width:900px) {
+        .container {
+            display: grid;
+            grid-template-columns:repeat(12, 1fr);
+            grid-template-areas:
+            "header header header header nav nav nav nav icons icons icons icons"
+            "header header header header nav nav nav nav icons icons icons icons"
+            "title title title title title title title title title title title title"
+            "msocks1 msocks1 msocks1 msocks1 msocks2 msocks2 msocks2 msocks2  msocks3 msocks3 msocks3 msocks3"
+            "msocks4 msocks4 msocks4 msocks4 msocks5 msocks5 msocks5 msocks5 msocks6 msocks6 msocks6 msocks6"
+            "msocks7 msocks7 msocks7 msocks7 msocks8 msocks8 msocks8 msocks8 msocks9 msocks9 msocks9 msocks9"
+            "footer footer footer footer footer footer footer footer footer footer footer footer"
+            ;
+        }
+}
+    </style>
+
+
+<link rel="stylesheet" href="stylesheet.css"> 
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html">
+            <img src="images/sock-brand.png" alt="image of ComfyToes logo">
+        </a>
+        </div>
+        <nav>
+            <span><a href="index.html" style="text-decoration:none">Home | </a></span> 
+            <span><a href="product1.html" style="text-decoration:none">Women |</a></span>
+            <span><a href="product2.html" style="text-decoration:none">Men |</a></span> 
+            <span><a href="kids.html" style="text-decoration:none">Kids |</a></span> 
+            <span><a href="sale.html" style="text-decoration:none">Sale</a></span>
+        </nav>
+        <div class="icons">
+            <img src="images/search.svg" alt="search icon" width="30"> 
+            &nbsp; 
+            <img src="images/cart.svg" alt="cart icon"
+            width="30">
+            
+        </div>
+
+        <div class="title">
+            <h1>Men's Socks</h1>
+        </div>
+        <div class="msocks1">
+            <img src="images/msocks1.png" alt="image of men's socks with smores pattern design">
+            <h3>
+                Men's Smores Crew Socks
+            </h3>
+            <h3>
+                $12.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="msocks2">
+            <img src="images/msocks2.png" alt="image of men's socks with lumberjack pattern design">
+            <h3>
+                Men's Lumberjack Crew Socks
+            </h3>
+            <h3>
+                $12.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="msocks3">
+            <img src="images/msocks3.png" alt="image of men's socks with lacrosse pattern design">
+            <h3>
+                Men's Lacrosse Crew Socks
+            </h3>
+            <h3>
+                $12.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="msocks4">
+            <img src="images/msocks4.png" alt="image of men's socks with fries pattern design">
+            <h3>
+                Men's Fries Crew Socks
+            </h3>
+            <h3>
+                $12.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="msocks5">
+            <img src="images/msocks5.png" alt="image of men's socks with dessert pattern design">
+            <h3>
+                Men's Dessert Crew Socks
+            </h3>
+            <h3>
+                $12.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="msocks6">
+            <img src="images/msocks6.png" alt="image of men's socks with hot sauce pattern design">
+            <h3>
+                Men's Hot Sauce Crew Socks
+            </h3>
+            <h3>
+                $12.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="msocks7">
+            <img src="images/msocks7.png" alt="image of men's socks with camping pattern design">
+            <h3>
+                Men's Camping Crew Socks
+            </h3>
+            <h3>
+                $12.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="msocks8">
+            <img src="images/msocks8.png" alt="image of men's socks with donut pattern design">
+            <h3>
+                Men's Donuts Crew Socks
+            </h3>
+            <h3>
+                $12.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <div class="msocks9">
+            <img src="images/msocks9.png" alt="image of men's socks with taco pattern design">
+            <h3>
+                Men's Tacos Crew Socks
+            </h3>
+            <h3>
+                $12.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="button">Add to Cart</button>
+            </h3>
+        </div>
+        <footer>
+            <hr style="width: 100%">
+            <img src="images/sock-brand.png" alt="image of ComfyToes logo" width="250">
+            <h4>
+                Customer Care &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Our Company
+            </h4>
+            <p>
+                My Account &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;About ComfyToes
+            </p>
+            <p>
+                FAQs &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Affiliates
+            </p>
+            <p>
+                Returns &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="policy.html">Privacy Policy</a>
+            </p>
+            <p>
+                Shipping + Delivery
+            </p>
+            <p>
+                Contact
+            </p>
+            <h5>&copy; Kamryn Haran | haranke@dukes.jmu.edu</h5>
+        </footer>
+    </div>
+</body>
+
+</html>

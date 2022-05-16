@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            max-width:1200px;
+            margin:0 auto;
+            grid-template-areas:
+            "header"
+            "nav"
+            "icons"
+            "promo"
+            "womens"
+            "mens"
+            "kids"
+            "sale"
+            "footer"
+            ;
+        }
+        .header {
+            grid-area:header;
+        }
+        nav {
+            grid-area:nav;
+        }
+        .icons {
+            grid-area:icons;
+        }
+        .promo {
+            grid-area:promo;
+        }
+        .womens {
+            grid-area:womens;
+            padding: 50px;
+        }
+        .mens {
+            grid-area:mens;
+            padding: 50px;
+            padding-left: 65px;
+        }
+        .kids {
+            grid-area:kids;
+            padding: 30px;
+           padding-left: 300px;
+        }
+        .sale {
+            grid-area:sale;
+            padding:40px;
+            padding-left: 250px;
+        }
+        footer {
+            grid-area:footer;
+        }
+        h4 {
+            padding-left: 250px;
+        }
+        p {
+            padding-left: 250px;
+        }
+        h5 {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    color:white;
+    background:black;
+    }
+
+    
+        @media only screen and (min-width:620px) {
+        .container {
+            display: grid;
+            grid-template-columns:repeat(6, 1fr);
+            grid-template-areas:
+            "header header nav nav icons icons"
+            "header header nav nav icons icons"
+            "promo promo promo promo promo promo"
+            "womens womens womens mens mens mens"
+            "kids kids kids kids kids kids"
+            "sale sale sale sale sale sale"
+            "footer footer footer footer footer footer"
+            ;
+        }
+    }
+
+    @media only screen and (min-width:900px) {
+        .container {
+            display: grid;
+            grid-template-columns:repeat(12, 1fr);
+            grid-template-areas:
+            "header header header header nav nav nav nav icons icons icons icons"
+            "header header header header nav nav nav nav icons icons icons icons"
+            "promo promo promo promo promo promo promo promo promo promo promo promo"
+            "womens womens womens womens womens womens mens mens mens mens mens mens"
+            "kids kids kids kids kids kids kids kids kids kids kids kids"
+            "sale sale sale sale sale sale sale sale sale sale sale sale"
+            "footer footer footer footer footer footer footer footer footer footer footer footer"
+            ;
+        }
+}
+    </style>
+
+<link rel="stylesheet" href="stylesheet.css"> 
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html">
+            <img src="images/sock-brand.png" alt="image of ComfyToes logo">
+            </a>
+        </div>
+        <nav>
+            <span><a href="index.html" style="text-decoration:none">Home | </a></span> 
+            <span><a href="product1.html" style="text-decoration:none">Women |</a></span>
+            <span><a href="product2.html" style="text-decoration:none">Men |</a></span> 
+            <span><a href="kids.html" style="text-decoration:none">Kids |</a></span> 
+            <span><a href="sale.html" style="text-decoration:none">Sale</a></span>
+        </nav>
+        <div class="icons">
+            <img src="images/search.svg" alt="search icon"
+            width="30" > 
+            &nbsp; 
+            <img src="images/cart.svg" alt="cart icon"
+            width="30">
+            
+        </div>
+        <div class="promo">
+            <a href="sale.html">
+            <img src="images/promo1.png" alt="promo image for sale on website">
+        </a>
+        </div>
+        <div class="womens">
+            <a href="product1.html" style="text-decoration:none;"> 
+            <img src="images/women.png" alt="image of women socks">
+            <h1>
+                Women's Socks
+            </h1>
+            <h3>
+                Match any outfit
+            </h3>
+            <button class="button">SHOP WOMEN'S</button>
+            </a>
+        </div>
+        <div class="mens">
+            <a href="product2.html" style="text-decoration:none;"> 
+            <img src="images/men.png" alt="image of men socks">
+            <h1>
+                Men's Socks
+            </h1>
+            <h3>
+                Socks perfect for any event
+            </h3>
+            <button class="button">SHOP MEN'S</button>
+            </a>
+        </div>
+        <div class="kids">
+            <a href="kids.html" style="text-decoration:none;"> 
+            <img src="images/kid.png" alt="image for kids socks">
+            <h1>
+                Kid's Socks
+            </h1>
+            <h3>
+                Adorable patterns for all kids
+            </h3>
+            <button class="button">SHOP KIDS</button>
+            </a>
+        </div>
+        <div class="sale">
+            <a href="sale.html" style="text-decoration:none;"> 
+            <img src="images/sale.png" alt="image for socks on sale">
+            <h1>
+                Shop Sale
+            </h1>
+            <h3>
+                Find your perfect pair
+            </h3>
+            <button class="button">SHOP SALE</button>
+        </a>
+        </div>
+        <footer>
+            <hr style="width: 100%">
+            <img src="images/sock-brand.png" alt="ComfyToes logo" width="250">
+            <h4>
+                Customer Care &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Our Company
+            </h4>
+            <p>
+                My Account &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;About ComfyToes
+            </p>
+            <p>
+                FAQs &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Affiliates
+            </p>
+            <p>
+                Returns &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="policy.html">Privacy Policy</a>
+            </p>
+            <p>
+                Shipping + Delivery
+            </p>
+            <p>
+                Contact
+            </p>
+            <h5>&copy; Kamryn Haran | haranke@dukes.jmu.edu</h5>
+        </footer>
+    </div>
+</body>
+</html>
