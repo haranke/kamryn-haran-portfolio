@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+
+.link-secondary {
+    color: #6c757d;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: orange;
+    
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.px-2 {
+    padding-right: 0.5rem!important;
+    padding-left: 0.5rem!important;
+}
+
+.active {
+    color: #6c757d;
+}
+
+.footer {
+	grid-row:11/12;
+	grid-column: 1/13;
+	padding-top: 20px;
+	text-align: center;
+	text-transform:uppercase;
+
+}
+
+.title {
+    font-family: 'Boogaloo', cursive;
+}
